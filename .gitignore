@@ -23,5 +23,5 @@
 hs_err_pid*
 
 #my
-DBConnect.java
-com.cw.s1.test.*
+DBConnector.java
+src/com/cw/s1/test/*
