@@ -17,9 +17,12 @@
 		Object obj = request.getAttribute("dto");
 		BankBookDTO bankBookDTO = (BankBookDTO)obj;
 	%>
-	<h3>num : <%= num %></h3>
-	<h3>Name : <%= bankBookDTO.getBookName() %></h3>
-	<h3>Rate : <%= bankBookDTO.getBookRate() %></h3>
-	
+	<h3>num : ${requestScope.dto.bookNum}</h3>
+	<h3>Name : ${requestScope.dto.bookName}</h3>
+	<h3>Rate : ${requestScope.dto.bookRate}</h3>
+	<h3>Count : ${requestScope.count }</h3>
+	<h3>Name : ${name}</h3>
+	<h3>SE : ${sessionScope.se}</h3>
+	<h3>SE : ${se}</h3>
 </body>
 </html>
