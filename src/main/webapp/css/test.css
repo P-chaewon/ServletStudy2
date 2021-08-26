@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+	color: lime;
+}
+
+h3 {
+	color: blue;
+}
+
+#t1{
+	color: pink;
+	border: olive 1px solid;
+}
+.c1 {
+	color: black;
+}
+h1 {
+	font-size: 100px;
+	/* border */
+	border-top-color: teal;
+	border-top-width: 3px;
+	border-top-style: solid;
+	
+	/* border-right */
+	border-right-color: olive;
+	border-right-width: 3px;
+	border-right-style: dashed;
+	/* border-bottom */
+	border-bottom: blue dotted 3px;
+}
+
+/* #t3, h2 {
+	font-size: 50px;
+} */
+
+.c2 {
+	font-size: 30px;
+}
+
+#circle {
+	border: 5px solid red;
+	width: 200px;
+	height: 200px;
+	border-radius: 10px 40px 10px 40px;
+	
+}
